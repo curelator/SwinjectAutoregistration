@@ -21,7 +21,7 @@ let package = Package(
         .target(
             name: "SwinjectAutoregistration",
             dependencies: [
-                "SwinjectCurelator",
+                "Swinject",
             ],
             path: "Sources"),
     ]
