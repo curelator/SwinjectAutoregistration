@@ -15,7 +15,7 @@ let package = Package(
         
     ],
     dependencies: [
-        .package(url: "https://github.com/curelator/Swinject.git")
+        .package(url: "https://github.com/curelator/Swinject.git", .revision(“00bac187e24813f73315d407651086c6f4220c2b”))
     ],
     targets: [
         .target(
