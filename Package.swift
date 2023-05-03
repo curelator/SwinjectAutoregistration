@@ -3,13 +3,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "SwinjectAutoregistrationCurelator",
+    name: "SwinjectAutoregistration",
     products: [
         .library(
-            name: "SwinjectAutoregistrationCurelator",
+            name: "SwinjectAutoregistration",
             targets: ["SwinjectAutoregistration"]),
         .library(
-            name: "SwinjectAutoregistration-DynamicCurelator",
+            name: "SwinjectAutoregistration-Dynamic",
             type: .dynamic,
             targets: ["SwinjectAutoregistration"])
         
